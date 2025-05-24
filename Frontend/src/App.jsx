@@ -21,7 +21,7 @@ function App() {
   }, [])
 
   async function reviewCode() {
-    const response = await axios.post('https://ai-code-review-backend-9axp.onrender.com', { code })
+    const response = await axios.post('https://ai-code-review-backend-8w7n.onrender.com', { code })
     setReview(response.data)
   }
 
